@@ -1,0 +1,306 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#wrapper {
+	width: 970px;
+	overflow: hidden;
+	height: auto;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#header ul {
+	display: inline-block;
+	text-align: right;
+	vertical-align: top;
+	padding: 0px 10px 5px 10px;
+	border-bottom: 1px solid #C0C0C0 ;
+}
+
+#header button {
+	width: 65px;
+	height: 24px;
+	margin-left: 20px;
+	padding: 0px 0px 2px 2px;
+	vertical-align: top;
+	color: white;
+	font-size: .95em;
+	border-radius: 5px;
+	background: linear-gradient( #3399CC, #3366CC);
+}
+
+#header li, #header a {
+	display: inline;
+	text-decoration: none;
+	font-size: .8em;
+	color: #909090;
+
+}
+#header img, #header h1{
+	margin-left: 10px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#company_name {
+	width: 500px;
+	display: inline-block;
+	padding-top: 27px;
+}
+#word, #stream{
+	display:inline-block; 
+	font-weight: 500;
+	font-size: 2.0em;
+	margin-top: 9px;
+}
+
+#word {
+	color: #808080;
+}
+
+#stream {
+	color: #0099CC;
+}
+
+#header h2 {
+	height: 40px;
+	background: linear-gradient(#3366CC, #3399CC, #3366CC);
+	color: white;
+	padding: 12px 0px 2px 15px;
+	font-size: 1.4em;
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+#main{
+	margin-top: 2px;
+	font-size: .7em;
+	line-height: 160%;
+}
+#main_left {
+	width: 220px;
+	padding: 55px 15px 0px 15px;
+	display: inline-block;
+}
+#left_top h3 {
+	color: #0099CC;
+	font-size: 1.4em;
+	margin: 15px 0px;
+	font-weight: 500;
+ 
+}
+#orange {
+	color: #CC3300;
+	font-weight: 600;
+}
+
+#wordstream {
+	color: #0099CC;
+}
+#info {
+	margin-bottom: 25px;
+}
+
+#left_top button {
+	width: 220px;
+	height: 30px;
+	border-radius: 5px;
+	
+}
+#left_top a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+#button_1 {
+	background: linear-gradient( #3399CC, #3366CC);
+	margin-bottom: 5px;
+}
+
+#button_2 {
+
+	background: linear-gradient(#FF9900, #FF3300);
+	margin-bottom: 5px;
+}
+#credit_card{
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+#left_bottom img {
+	padding-top: 20px;
+	width: 205px;
+}
+
+#text{
+	width: 185px;
+	padding: 10px;
+	font-size: 1.1em;
+	position: relative;
+	top: -249px;
+	left: -8px;
+}
+
+#text h3 {
+	color: #3399CC;
+	line-height: 150%;
+}
+
+#text p {
+	padding-top: 8px;
+	font-size: .85em;
+	color: #303030;
+	font-weight: 600; 
+	line-height: 170%;
+}
+
+#text button {
+	margin-top: 10px;
+	width:180px;
+	height: 25px;
+	padding: 3px 0px 5px 0px;
+	border-radius: 5px;
+	background: linear-gradient(#3B6EA9, #063F80);
+
+}
+#text a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.15em;
+}
+
+#main_right {
+	vertical-align: top;
+	width: 650px;
+	padding: 15px;
+	display: inline-block;
+}
+
+#right_top, #home_bar, #home_bar img, #home_bar h3, #contact_info img{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#home_bar h3 {
+	color: #0099CC;
+	font-weight: 500;
+	padding-top: 4px;
+	font-size: 1.35em;
+}
+
+
+#contact_info, #phone_number{
+	display: inline-block;
+}
+
+#contact_info{
+	width: 572px;
+	text-align: right;
+}
+
+#phone_number {
+	line-height: 180%;
+}
+#phone_number h2 {
+	font-size: 2.0em;
+	color: #0099FF;
+}
+#phone_number p{
+	color: #585858;
+}
+
+#right_top{
+	border-bottom: 1px solid #B8B8B8;
+	padding-bottom: 10px;
+	margin-bottom: 10px; 
+}
+.content {
+	line-height: 180%;
+}
+.content h3{
+	color: #0099CC;
+	font-size: 1.5em;
+}
+
+.content a{
+	color: #3399CC;
+}
+.bold {
+	font-weight: bold;
+}
+
+.content p{
+	padding: 15px 0px;
+}
+
+.content h4 {
+	color: #3399CC;
+	font-size: 1.15em;
+}
+.content ul{
+	padding-left: 15px;
+	list-style-type: square;
+	color: #0099CC;
+
+}
+.content ul li{
+	color: black;
+}
+
+#box img, #ad {
+	display: inline-block;
+	vertical-align: top;
+}
+#ad {
+	width: 510px;
+	padding: 5px;
+}
+#box {
+	width: 600px;
+	border: 5px solid #99CCFF;
+	margin-left: -1px;
+	margin-bottom: 10px;
+}
+
+#ad h3{
+	color: #3399CC;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+#ad p {
+	font-size: 1.2em;
+	line-height: 150%;
+	margin-bottom: 15px;
+	padding-left: 5px;
+}
+
+#ad a{
+	text-decoration: none;
+	font-size: 1.3em;
+	color: white;
+}
+
+#ad button {
+	width: 180px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #66CC33;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
